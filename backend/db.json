@@ -2,485 +2,939 @@
   "questions": [
     {
       "id": 1,
-      "questionLabel": "What is a component in Angular?"
+      "questionLabel": "What is a component in Angular?",
+      "categoryId": 1
     },
     {
       "id": 2,
-      "questionLabel": "Explain the purpose of the NgModule in Angular."
+      "questionLabel": "Explain the purpose of the NgModule in Angular.",
+      "categoryId": 1
     },
     {
       "id": 3,
-      "questionLabel": "How do you create a new Angular application?"
+      "questionLabel": "How do you create a new Angular application?",
+      "categoryId": 1
     },
     {
       "id": 4,
-      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
+      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?",
+      "categoryId": 1
     },
     {
       "id": 5,
-      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
+      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates.",
+      "categoryId": 1
     },
     {
       "id": 6,
-      "questionLabel": "What is event binding in Angular, and how is it implemented?"
+      "questionLabel": "What is event binding in Angular, and how is it implemented?",
+      "categoryId": 1
     },
     {
       "id": 7,
-      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
+      "questionLabel": "What is Angular CLI, and how do you use it to generate components?",
+      "categoryId": 1
     },
     {
       "id": 8,
-      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
+      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?",
+      "categoryId": 1
     },
     {
       "id": 9,
-      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
+      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application.",
+      "categoryId": 1
     },
     {
       "id": 10,
-      "questionLabel": "What is dependency injection in Angular, and why is it important?"
+      "questionLabel": "What is dependency injection in Angular, and why is it important?",
+      "categoryId": 1
     },
     {
       "id": 11,
-      "questionLabel": "How do you communicate between parent and child components in Angular?"
+      "questionLabel": "How do you communicate between parent and child components in Angular?",
+      "categoryId": 1
     },
     {
       "id": 12,
-      "questionLabel": "What is a service in Angular, and when should you use it?"
+      "questionLabel": "What is a service in Angular, and when should you use it?",
+      "categoryId": 1
     },
     {
       "id": 13,
-      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
+      "questionLabel": "What is the purpose of the ngFor directive in Angular?",
+      "categoryId": 1
     },
     {
       "id": 14,
-      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
+      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application.",
+      "categoryId": 1
     },
     {
       "id": 15,
-      "questionLabel": "What is Angular CLI's ng serve command used for?"
+      "questionLabel": "What is Angular CLI's ng serve command used for?",
+      "categoryId": 1
     },
     {
       "id": 16,
-      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
+      "questionLabel": "What is Angular's two-way data binding, and how does it work?",
+      "categoryId": 1
     },
     {
       "id": 17,
-      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
+      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?",
+      "categoryId": 1
     },
     {
       "id": 18,
-      "questionLabel": "How can you handle HTTP requests in Angular?"
+      "questionLabel": "How can you handle HTTP requests in Angular?",
+      "categoryId": 1
     },
     {
       "id": 19,
-      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
+      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?",
+      "categoryId": 1
     },
     {
       "id": 20,
-      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
+      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial.",
+      "categoryId": 1
+    },
+    {
+      "id": 21,
+      "questionLabel": "What is a component in Next.js?",
+      "categoryId": 2
+    },
+    {
+      "id": 22,
+      "questionLabel": "What is SSR in Next.js?",
+      "categoryId": 2
+    },
+    {
+      "id": 23,
+      "questionLabel": "How do you create dynamic routes in Next.js?",
+      "categoryId": 2
+    },
+    {
+      "id": 24,
+      "questionLabel": "What is the difference between static and dynamic generation in Next.js?",
+      "categoryId": 2
+    },
+    {
+      "id": 25,
+      "questionLabel": "How do you handle API routes in Next.js?",
+      "categoryId": 2
+    },
+    {
+      "id": 26,
+      "questionLabel": "Explain the purpose of the `getStaticProps` function in Next.js.",
+      "categoryId": 2
+    },
+    {
+      "id": 27,
+      "questionLabel": "What is hydration in Next.js?",
+      "categoryId": 2
+    },
+    {
+      "id": 28,
+      "questionLabel": "What is a Vue component?",
+      "categoryId": 3
+    },
+    {
+      "id": 29,
+      "questionLabel": "How do you create a Vue.js instance?",
+      "categoryId": 3
+    },
+    {
+      "id": 30,
+      "questionLabel": "What is the Vue.js reactivity system?",
+      "categoryId": 3
+    },
+    {
+      "id": 31,
+      "questionLabel": "What is a directive in Vue.js?",
+      "categoryId": 3
+    },
+    {
+      "id": 32,
+      "questionLabel": "Explain how the v-bind directive works in Vue.js.",
+      "categoryId": 3
+    },
+    {
+      "id": 33,
+      "questionLabel": "What is Vue Router?",
+      "categoryId": 3
+    },
+    {
+      "id": 34,
+      "questionLabel": "What is the Vue.js lifecycle?",
+      "categoryId": 3
+    },
+    {
+      "id": 35,
+      "questionLabel": "What are Tailwind CSS utility classes?",
+      "categoryId": 4
+    },
+    {
+      "id": 36,
+      "questionLabel": "How do you configure Tailwind CSS?",
+      "categoryId": 4
+    },
+    {
+      "id": 37,
+      "questionLabel": "What is the difference between `@apply` and utility-first classes in Tailwind CSS?",
+      "categoryId": 4
+    },
+    {
+      "id": 38,
+      "questionLabel": "How do you extend the Tailwind theme?",
+      "categoryId": 4
+    },
+    {
+      "id": 39,
+      "questionLabel": "What is JIT mode in Tailwind CSS?",
+      "categoryId": 4
+    },
+    {
+      "id": 40,
+      "questionLabel": "What are responsive design utilities in Tailwind CSS?",
+      "categoryId": 4
     }
   ],
   "answers": [
     {
       "questionId": 1,
       "answerLabel": "A reusable building block for the user interface",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
+
     },
     {
       "questionId": 1,
       "answerLabel": "A style in Angular",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
+
     },
     {
       "questionId": 1,
       "answerLabel": "A service for handling HTTP requests",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
+
     },
     {
       "questionId": 1,
       "answerLabel": "A routing configuration",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
+
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
+
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is a component in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
+
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is used for data binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
+
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is a directive in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
+
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
+
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
+
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using pure JavaScript.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
+
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using Python.",
+      "categoryId": 1,
       "isCorrect": false
+
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
+
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is used for creating components.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is a routing feature.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is only available for services.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 5,
       "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
     },
     {
       "questionId": 5,
       "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 5,
       "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 5,
       "answerLabel": "[property] (property binding) is used for creating services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used to capture and respond to user interactions like clicks and keystrokes.",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for defining component styles.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI (Command Line Interface) is a command-line tool for creating, building, and deploying Angular applications.",
+      "categoryId": 1,
       "isCorrect": true
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a component in Angular applications.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a directive in Angular applications.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a service for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a marker on a DOM element that tells Angular to do something with that element.",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a component.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a service.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a module.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is a library for navigating between views and components.",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for data binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for event binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a design pattern used to provide instances of classes with their dependencies.",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a way to inject styles into components.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a way to create routes in an application.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is used for data binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular can be achieved through input properties and output events.",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular is not possible.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular can only be done using services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular can only be done using event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a class that provides specific functionality and can be injected into components and other services.",
-      "isCorrect": true
+      "isCorrect": true,
+      "categoryId": 1
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a type of component.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a type of directive.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a type of module.",
+
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 13,
       "answerLabel": "The ngFor directive in Angular is used for iterating over a list of items and rendering them in the template.",
+      "categoryId": 1,
       "isCorrect": true
     },
     {
       "questionId": 13,
+      "categoryId": 1,
       "answerLabel": "The ngFor directive in Angular is used for defining routes.",
       "isCorrect": false
     },
     {
       "questionId": 13,
+      "categoryId": 1,
       "answerLabel": "The ngFor directive in Angular is used for handling HTTP requests.",
       "isCorrect": false
     },
     {
       "questionId": 13,
+      "categoryId": 1,
       "answerLabel": "The ngFor directive in Angular is used for event binding.",
       "isCorrect": false
     },
     {
       "questionId": 14,
+      "categoryId": 1,
       "answerLabel": "Modules in Angular are used to organize the application into cohesive blocks of functionality.",
       "isCorrect": true
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used for data binding.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used for routing configuration.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used for handling HTTP requests.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used to compile and serve an Angular application locally for development purposes.",
+      "categoryId": 1,
       "isCorrect": true
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used to deploy an Angular application to a production server.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used for data binding.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "categoryId": 1
     },
     {
       "questionId": 16,
       "answerLabel": "Angular's two-way data binding combines property binding and event binding to automatically keep the view and the component data in sync.",
+      "categoryId": 1,
       "isCorrect": true
     },
     {
       "questionId": 16,
+      "categoryId": 1,
       "answerLabel": "Angular's two-way data binding is used for routing configuration.",
       "isCorrect": false
     },
     {
+      "categoryId": 1,
       "questionId": 16,
       "answerLabel": "Angular's two-way data binding is used for dependency injection.",
       "isCorrect": false
     },
     {
       "questionId": 16,
+      "categoryId": 1,
       "answerLabel": "Angular's two-way data binding is used for handling HTTP requests.",
       "isCorrect": false
     },
     {
       "questionId": 17,
+      "categoryId": 1,
       "answerLabel": "Angular's trackBy function is used to improve the performance of ngFor by identifying unique items in the iteration.",
       "isCorrect": true
     },
     {
       "questionId": 17,
+      "categoryId": 1,
       "answerLabel": "Angular's trackBy function is used for defining routes.",
       "isCorrect": false
     },
     {
       "questionId": 17,
       "answerLabel": "Angular's trackBy function is used for event binding.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 17,
       "answerLabel": "Angular's trackBy function is used for dependency injection.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 18,
+      "categoryId": 1,
       "answerLabel": "HTTP requests in Angular can be handled using the HttpClient module to send requests and receive responses from a server.",
       "isCorrect": true
     },
     {
       "questionId": 18,
       "answerLabel": "HTTP requests in Angular can be handled using the ngFor directive.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 18,
+      "categoryId": 1,
       "answerLabel": "HTTP requests in Angular can be handled using dependency injection.",
       "isCorrect": false
     },
     {
       "questionId": 18,
+      "categoryId": 1,
       "answerLabel": "HTTP requests in Angular can be handled using the trackBy function.",
       "isCorrect": false
     },
     {
       "questionId": 19,
       "answerLabel": "Angular pipes are used for transforming and formatting data in templates.",
+      "categoryId": 1,
       "isCorrect": true
     },
     {
       "questionId": 19,
       "answerLabel": "Angular pipes are used for defining routes.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 19,
+      "categoryId": 1,
       "answerLabel": "Angular pipes are used for event binding.",
       "isCorrect": false
     },
     {
       "questionId": 19,
+      "categoryId": 1,
       "answerLabel": "Angular pipes are used for dependency injection.",
       "isCorrect": false
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for loading modules only when they are needed, improving application performance.",
+      "categoryId": 1,
       "isCorrect": true
     },
     {
       "questionId": 20,
+      "categoryId": 1,
       "answerLabel": "Lazy loading in Angular is a technique for handling HTTP requests.",
       "isCorrect": false
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for event binding.",
+      "categoryId": 1,
       "isCorrect": false
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
+      "categoryId": 1,
       "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "A reusable UI component built with React.",
+      "isCorrect": true,
+      "categoryId": 2
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "A directive in Next.js",
+      "isCorrect": false,
+      "categoryId": 2
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "SSR stands for Server-Side Rendering, a technique used to render pages on the server.",
+      "isCorrect": true,
+      "categoryId": 2
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "SSR stands for Static Site Rendering.",
+      "isCorrect": false,
+      "categoryId": 2
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "Dynamic routes can be created by using square brackets in file names within the pages directory.",
+      "isCorrect": true,
+      "categoryId": 2
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "Dynamic routes are created in Next.js by using the Router module.",
+      "isCorrect": false,
+      "categoryId": 2
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "Static generation happens at build time, while dynamic generation happens at request time.",
+      "isCorrect": true,
+      "categoryId": 2
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "Static generation happens at request time, while dynamic generation happens at build time.",
+      "isCorrect": false,
+      "categoryId": 2
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "API routes in Next.js are created in the `/api` folder and can handle server-side functions.",
+      "isCorrect": true,
+      "categoryId": 2
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "API routes in Next.js are defined in the `next.config.js` file.",
+      "isCorrect": false,
+      "categoryId": 2
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "The `getStaticProps` function is used to fetch data at build time for static generation.",
+      "isCorrect": true,
+      "categoryId": 2
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "The `getStaticProps` function is used to fetch data at request time for server-side rendering.",
+      "isCorrect": false,
+      "categoryId": 2
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "Hydration is the process of attaching event listeners and making a static page interactive.",
+      "isCorrect": true,
+      "categoryId": 2
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "Hydration is the process of converting a server-rendered page into a static page.",
+      "isCorrect": false,
+      "categoryId": 2
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "A reusable block of code that controls a part of the user interface in Vue.js.",
+      "isCorrect": true,
+      "categoryId": 3
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "A function for creating HTTP requests in Vue.js.",
+      "isCorrect": false,
+      "categoryId": 3
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "A Vue.js instance is created by passing an object with options to the `Vue` constructor.",
+      "isCorrect": true,
+      "categoryId": 3
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "A Vue.js instance is created using the `new Component()` method.",
+      "isCorrect": false,
+      "categoryId": 3
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "The reactivity system in Vue.js tracks data changes and updates the DOM automatically.",
+      "isCorrect": true,
+      "categoryId": 3
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "The reactivity system in Vue.js is used to manage HTTP requests.",
+      "isCorrect": false,
+      "categoryId": 3
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "A directive in Vue.js is a special token in the markup that tells the library to do something with a DOM element.",
+      "isCorrect": true,
+      "categoryId": 3
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "A directive in Vue.js is a built-in method to create components.",
+      "isCorrect": false,
+      "categoryId": 3
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "The v-bind directive in Vue.js is used to bind an attribute to an expression.",
+      "isCorrect": true,
+      "categoryId": 3
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "The v-bind directive in Vue.js is used for event handling.",
+      "isCorrect": false,
+      "categoryId": 3
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "Vue Router is the official router for Vue.js, enabling navigation between different views.",
+      "isCorrect": true,
+      "categoryId": 3
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "Vue Router is used to handle HTTP requests.",
+      "isCorrect": false,
+      "categoryId": 3
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "The Vue.js lifecycle consists of a series of events that take place from the creation of a Vue instance to its destruction.",
+      "isCorrect": true,
+      "categoryId": 3
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "The Vue.js lifecycle only covers data updates.",
+      "isCorrect": false,
+      "categoryId": 3
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "Utility classes in Tailwind CSS are single-purpose classes that apply a specific CSS property.",
+      "isCorrect": true,
+      "categoryId": 4
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "Utility classes in Tailwind CSS are used to define routes.",
+      "isCorrect": false,
+      "categoryId": 4
+    },
+    {
+      "questionId": 36,
+      "answerLabel": "You configure Tailwind CSS by creating a `tailwind.config.js` file.",
+      "isCorrect": true,
+      "categoryId": 4
+    },
+    {
+      "questionId": 36,
+      "answerLabel": "You configure Tailwind CSS using the `package.json` file.",
+      "isCorrect": false,
+      "categoryId": 4
+    },
+    {
+      "questionId": 37,
+      "answerLabel": "`@apply` is used to include utility classes in your custom CSS.",
+      "isCorrect": true,
+      "categoryId": 4
+    },
+    {
+      "questionId": 37,
+      "answerLabel": "`@apply` is used to define routes in Tailwind CSS.",
+      "isCorrect": false,
+      "categoryId": 4
+    },
+    {
+      "questionId": 38,
+      "answerLabel": "You extend the Tailwind theme by adding custom values to the `theme` section of the configuration file.",
+      "isCorrect": true,
+      "categoryId": 4
+    },
+    {
+      "questionId": 38,
+      "answerLabel": "You extend the Tailwind theme by modifying the `main.css` file directly.",
+      "isCorrect": false,
+      "categoryId": 4
+    },
+    {
+      "questionId": 39,
+      "answerLabel": "JIT mode in Tailwind CSS generates styles on demand when they are used.",
+      "isCorrect": true,
+      "categoryId": 4
+    },
+    {
+      "questionId": 39,
+      "answerLabel": "JIT mode in Tailwind CSS is used to handle API requests.",
+      "isCorrect": false,
+      "categoryId": 4
+    },
+    {
+      "questionId": 40,
+      "answerLabel": "Responsive design utilities in Tailwind CSS allow you to apply styles based on breakpoints.",
+      "isCorrect": true,
+      "categoryId": 4
+    },
+    {
+      "questionId": 40,
+      "answerLabel": "Responsive design utilities in Tailwind CSS are used to handle event bindings.",
+      "isCorrect": false,
+      "categoryId": 4
     }
   ],
   "users": [
@@ -498,6 +952,24 @@
       "username": "test",
       "password": "test",
       "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryLabel": "Angular"
+    },
+    {
+      "id": 2,
+      "categoryLabel": "Next.js"
+    },
+    {
+      "id": 3,
+      "categoryLabel": "Vue.js"
+    },
+    {
+      "id": 4,
+      "categoryLabel": "Tailwind CSS"
     }
   ]
 }
