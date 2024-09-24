@@ -1,0 +1,16 @@
+<div class="flex flex-col items-center gap-4">
+  <div class="flex items-center gap-2">
+    <input [(ngModel)]="searchTerm" type="text" placeholder="Rechercher..." class="p-2 border rounded" />
+    <button (click)="clearSearch()" class="p-2 bg-red-500 text-white rounded" *ngIf="searchTerm">Effacer</button>
+  </div>
+
+  <div class="flex gap-2 justify-center">
+    <div
+      *ngFor="let category of categories | filter: searchTerm"
+      class="cursor-pointer bg-violet-500 p-10 rounded"
+      (click)="navigateToQuiz(category.id)"
+    >
+      <p class="text-white">{{ category.name }}</p>
+    </div>
+  </div>
+</div>
